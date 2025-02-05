@@ -8,13 +8,22 @@ public class ArrList {
     private String name = "Igor";
     private List<String> cities = List.of("Kyiv", "Lviv", "Odessa"); // Незмінний список
     private List<String> fruits = Arrays.asList("Apple", "Banana", "Cherry"); // Незмінний список
-
+    private StringBuilder France=new StringBuilder("Paris");
+    private StringBuilder France1=new StringBuilder("Monaco");
+    private StringBuilder France2=new StringBuilder("Marseille");
+    private StringBuilder France3=new StringBuilder("Lion");
+    StringBuilder[] array={France,France1,France2,France3};
+    List<StringBuilder> list =Arrays.asList(array);
     public ArrList() {
         names.add("Alice");
         names.add("Bob");
         names.add("Charlie");
+        names.add(2,"Caull");
         names.add(name);
         printSize();
+        System.out.println(list);
+        array[0]=new StringBuilder("F");
+        System.out.println(array[0]);
     }
 
     // Метод для виведення розміру списку
