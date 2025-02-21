@@ -1,0 +1,7 @@
+🔥 Ключові методи Stream API:
+✅ Основні: map(), filter(), sorted(), distinct(), collect(), forEach()
+✅ Пошук і агрегати: findFirst(), findAny(), count(), min(), max(), reduce()
+✅ Фільтрація: takeWhile(), dropWhile()
+✅ Глибокі трансформації: flatMap()
+✅ Відладка: peek()
+✅ Генерація потоку: generate(), iterate(), IntStream.range()
